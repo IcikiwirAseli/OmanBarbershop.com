@@ -8,31 +8,31 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!<!-- Navbar SIMPEL - Logo + 4 Menu -->
-<nav class="navbar">
-    <div class="nav-container">
-        <!-- LOGO KIRI -->
-        <div class="nav-logo">
-            <div class="logo">
-                <img src="pics/image.png" alt="Oman Barbershop" class="logo-img">
-                <span class="logo-text">OMAN</span>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- LOGO KIRI -->
+            <div class="nav-logo">
+                <div class="logo">
+                    <img src="pics/Logo Oman.jpg.jpeg" alt="Oman Barbershop" class="logo-img">
+                    <span class="logo-text">Oman Barbershop</span>
+                </div>
+            </div>
+            
+            <!-- 4 MENU TENGAH -->
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#location" class="nav-link">Hubungi Kami</a>
+                <a href="#catalog" class="nav-link">Hair Catalog</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            
+            <!-- HAMBURGER MOBILE -->
+            <div class="nav-hamburger">
+                <i class="fas fa-bars hamburger"></i>
             </div>
         </div>
-        
-        <!-- 4 MENU TENGAH -->
-        <div class="nav-menu">
-            <a href="#home" class="nav-link active">Home</a>
-            <a href="#catalog" class="nav-link">Hair Catalog</a>
-            <a href="#location" class="nav-link">Lokasi</a>
-            <a href="#faq" class="nav-link">FAQ</a>
-        </div>
-        
-        <!-- HAMBURGER MOBILE -->
-        <div class="nav-hamburger">
-            <i class="fas fa-bars hamburger"></i>
-        </div>
-    </div>
-</nav>
+    </nav>
 
     <!-- Hero Slider -->
     <section id="home" class="hero">
@@ -56,24 +56,25 @@
                 <span class="dot" data-slide="2"></span>
             </div>
             <div class="hero-content">
-                <h1>Harga pangkas kualitas barbershop</h1>
+                <h1>Harga pangkas</h1>
+                <h1>Kualitas barbershop</h1>
                 <p>Potong rambut premium dengan sentuhan profesional</p>
             </div>
         </div>
     </section>
 
-    <!-- Info Singkat -->
-    <section class="info">
+    <!-- Info Singkat - SECTION Lokasi/Hubungi -->
+    <section id="location" class="info">
         <div class="container">
             <div class="info-grid">
                 <div class="info-card">
                     <i class="fas fa-phone info-icon"></i>
                     <h3>Layanan Pelanggan</h3>
-                    <p>085279812771 </p>
+                    <p>085279812771</p>
                 </div>
                 <div class="info-card">
                     <i class="fas fa-map-marker-alt info-icon"></i>
-                    <h3 id="location">Kantor Pusat</h3>
+                    <h3>Lokasi</h3>
                     <p>Villa kenali permai, Jl. Pendidikan No.45 blok D, RT.23, Kenali Asam Bawah, Kec. Kota Baru, Kota Jambi, Jambi 36129</p>
                 </div>
                 <div class="info-card">
@@ -85,33 +86,31 @@
         </div>
     </section>
 
-    <!-- Tentang -->
+    <!-- Tentang / Hair Catalog -->
     <section id="catalog" class="about">
         <div class="container">
             <div class="about-grid">
                 <div class="about-text">
+                    <h1>Hair Catalog</h1>
                     <h2>OMAN BARBERSHOP</h2>
-                    <h1>Tradisi Bertemu Modernitas</h1>
-                    <p>Kami menggabungkan teknik potong klasik dengan teknologi modern untuk memberikan pengalaman grooming terbaik. Setiap potongan rambut adalah karya seni yang disesuaikan dengan bentuk wajah dan gaya pribadi Anda.</p>
+                    <p>Beberapa hasil potongan Oman Barbershop.</p>
+                    <p>Lihat lebih banyak gaya rambut yang tersedia di Instagram kami!</p>
+                    <br>
+
+            <a href="https://www.instagram.com/omanbarbershop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn ig" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
                 </div>
                 <div class="hair-slider">
                     <div class="hair-slide active">
                         <img src="pics/WhatsApp Image 2026-05-06 at 15.07.33.jpeg" alt="Hair Style 1">
-                        <div class="hair-info">
-                            <h4>Hair Style 1</h4>
-                        </div>
                     </div>
                     <div class="hair-slide">
                         <img src="pics/WhatsApp Image 2026-05-06 at 15.07.46.jpeg" alt="Hair Style 2">
-                        <div class="hair-info">
-                            <h4>Hair Style 2</h4>
-                        </div>
+
                     </div>
                     <div class="hair-slide">
                         <img src="pics/WhatsApp Image 2026-05-06 at 15.08.10.jpeg" alt="Hair Style 3">
-                        <div class="hair-info">
-                            <h4>Hair Style 3</h4>
-                        </div>
                     </div>
                     <div class="hair-nav">
                         <button class="hair-prev"><i class="fas fa-chevron-left"></i></button>
@@ -122,50 +121,68 @@
         </div>
     </section>
 
-    <!-- Paket Harga -->
-    <section class="packages">
-        <div class="container">
-            <h2>Paket & Harga</h2>
-            <div class="packages-grid">
-                <div class="package-card">
-                    <h3>Classic Cut</h3>
-                    <p class="price">Rp 75.000</p>
-                    <ul>
-                        <li>Potong Rambut</li>
-                        <li>Cuci Rambut</li>
-                        <li>Blow Dry</li>
-                    </ul>
-                </div>
-                <div class="package-card">
-                    <h3>Premium Cut</h3>
-                    <p class="price">Rp 120.000</p>
-                    <ul>
-                        <li>Classic Cut</li>
-                        <li>Face Shave</li>
-                        <li>Hot Towel</li>
-                    </ul>
-                </div>
-                <div class="package-card">
-                    <h3>VIP Experience</h3>
-                    <p class="price">Rp 200.000</p>
-                    <ul>
-                        <li>Premium Cut</li>
-                        <li>Head Massage</li>
-                        <li>Beard Treatment</li>
-                    </ul>
-                </div>
-                <div class="package-card"><h3>Express Cut</h3><p class="price">Rp 50.000</p><ul><li>Potong Cepat</li></ul></div>
-                <div class="package-card"><h3>Beard Trim</h3><p class="price">Rp 60.000</p><ul><li>Trim Jenggot</li></ul></div>
-                <div class="package-card"><h3>Kids Cut</h3><p class="price">Rp 45.000</p><ul><li>Potong Anak</li></ul></div>
-                <div class="package-card"><h3>Color Treatment</h3><p class="price">Rp 250.000</p><ul><li>Warna Rambut</li></ul></div>
-                <div class="package-card"><h3>Scalp Care</h3><p class="price">Rp 150.000</p><ul><li>Perawatan Kulit Kepala</li></ul></div>
-                <div class="package-card"><h3>Full Grooming</h3><p class="price">Rp 300.000</p><ul><li>Grooming Lengkap</li></ul></div>
-                <div class="package-card"><h3>Maintenance</h3><p class="price">Rp 90.000</p><ul><li>Perawatan Rutin</li></ul></div>
-                <div class="package-card"><h3>Bridal Grooming</h3><p class="price">Rp 350.000</p><ul><li>Grooming Pengantin</li></ul></div>
-                <div class="package-card"><h3>Student Cut</h3><p class="price">Rp 40.000</p><ul><li>Diskon Pelajar</li></ul></div>
+<!-- Paket Harga -->
+<section class="packages">
+    <div class="container">
+        <h2>Paket & Harga</h2>
+        <div class="packages-grid">
+            <!-- Row 1 -->
+            <div class="package-card">
+                <h3>Haircut</h3>
+                <p class="price">Rp 25.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Haircut + Hairwash</h3>
+                <p class="price">Rp 35.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Shaving</h3>
+                <p class="price">Rp 15.000</p>
+            </div>
+            <!-- Row 2 -->
+            <div class="package-card">
+                <h3>Hair Coloring Hitam</h3>
+                <p class="price">Rp 50.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Coloring Tanpa Bleaching</h3>
+                <p class="price">Rp 130.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Coloring Full Bleaching</h3>
+                <p class="price">Rp 200.000</p>
+            </div>
+            <!-- Row 3 -->
+            <div class="package-card">
+                <h3>Highlight</h3>
+                <p class="price">Rp 180.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Perming Treatment</h3>
+                <p class="price">Rp 180.000</p>
+            </div>
+            <div class="package-card">
+                <h3>Keratin Treatment</h3>
+                <p class="price">Rp 180.000</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
+<!-- Section Artikel -->
+<section class="artikel">
+    <div class="container">
+        <h2>Artikel</h2>
+        
+        <div class="artikel-card">
+            <div class="artikel-content">
+                <h3>Bagaimana cara mengatasi rambut rontok?</h3>
+                <p>Rambut rontok adalah musuh dalam selimut, diam-diam menggerogoti kepercayaan diri tanpa kita sadari. Pagi hari menyisir rambut, lalu tiba-tiba bantal penuh helai rambut yang berguguran? Tenang, kamu tidak sendirian...</p>
+                <a href="artikel-rambut-rontok.html" class="artikel-btn">Baca Selengkapnya <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- FAQ -->
     <section id="faq" class="faq">
@@ -175,98 +192,32 @@
                 <div class="faq-column">
                     <div class="accordion">
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Apakah perlu reservasi?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Tidak,bisa langsung ke lokasi tapi kami sarankan reservasi via WhatsApp untuk menghindari antrian panjang.</p>
-                            </div>
+                            <button class="accordion-header"><span>Apakah perlu reservasi?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Tidak, bisa langsung ke lokasi tapi kami sarankan reservasi via WhatsApp.</p></div>
                         </div>
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Berapa lama proses?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Classic Cut: 30 menit, Premium: 45 menit, VIP: 60 menit.</p>
-                            </div>
+                            <button class="accordion-header"><span>Di mana lokasi Oman Barbershop?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Oman Barbershop berlokasi di Gang Villa Kenali, Kecamatan Alam Barajo, Kota Jambi. Lokasi dapat dilihat melalui peta yang tersedia pada website.</p></div>
                         </div>
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Ada antar jemput?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Ya, untuk paket VIP+ dengan biaya tambahan Rp50.000.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Boleh bawa anak?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Ya, tersedia Kids Cut khusus anak-anak.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Ada promo member?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Ya, potongan 10% untuk member 5x kunjungan.</p>
-                            </div>
+                            <button class="accordion-header"><span>Apakah bisa memilih model rambut yang diinginkan?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Tentu, Pelanggan dapat menunjukkan referensi model rambut yang diinginkan atau memilih dari katalog gaya rambut yang tersedia pada website Oman Barbershop.</p></div>
                         </div>
                     </div>
                 </div>
                 <div class="faq-column">
                     <div class="accordion">
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Ada produk perawatan?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Ya, tersedia pomade, oil, dan shampoo premium.</p>
-                            </div>
+                            <button class="accordion-header"><span>Ada produk perawatan?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Ya, tersedia pomade, oil, dan shampoo premium.</p></div>
                         </div>
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Cara pembayaran?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Cash, Qris, Gopay, Ovo, ShopeePay.</p>
-                            </div>
+                            <button class="accordion-header"><span>Metode pembayaran?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Cash, Qris, Gopay, Ovo, ShopeePay.</p></div>
                         </div>
                         <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Apakah melayani customer wanita?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Ya, kami juga melayani rambut wanita.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span>Lama tunggu?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Maksimal 15 menit jika sudah reservasi.</p>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <button class="accordion-header">
-                                <span> Apakah bisa booking di layanan ke rumah?</span>
-                                <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="accordion-content">
-                                <p>Tidak, hanya di tempat barber saja.</p>
-                            </div>
+                            <button class="accordion-header"><span>Apakah melayani customer wanita?</span><i class="fas fa-chevron-down"></i></button>
+                            <div class="accordion-content"><p>Ya, kami juga melayani rambut wanita.</p></div>
                         </div>
                     </div>
                 </div>
@@ -274,37 +225,36 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-left">
-                    <div class="logo">
-                        <img src="pics/image.png" alt="Oman Barbershop Logo" class="logo-img">
-                        <span class="logo-text">OMAN BARBERSHOP</span>
-                    </div>
-                    <p>Follow Instagram kami</p>
-                    <a href="#" class="social"><i class="fab fa-instagram"></i> @omanbarbershop</a>
-                </div>
-                <div class="footer-center">
-                    <h4>Legal</h4>
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms of Service</a>
-                    <a href="#">Tentang Kami</a>
-                    <a href="#">Misi Kami</a>
-                </div>
-                <div class="footer-right">
-                    <h4>Kontak</h4>
-                    <p>Jl. Raya Barbershop No. 123<br>Jakarta Selatan</p>
-                    <p><i class="fas fa-phone"></i> +62 812-3456-7890</p>
-                    <p><i class="fas fa-envelope"></i> info@omanbarbershop.com</p>
-                </div>
-            </div>
-            <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.1);">
-                <p>&copy; 2024 Oman Barbershop. All rights reserved.</p>
-            </div>
+<!-- Footer - Compact & Center -->
+<footer class="footer">
+    <div class="container">
+        <!-- Logo Footer -->
+        <div class="footer-logo">
+            <img src="pics/Logo Oman.jpg.jpeg" alt="Oman Barbershop Logo" class="logo-img">
+            <span class="logo-text">OMAN BARBERSHOP</span>
         </div>
-    </footer>
+        
+        <!-- Social Links - WA, IG, Maps -->
+        <div class="footer-socials">
+            <a href="https://wa.me/6285279812771" class="social-btn wa" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://www.instagram.com/omanbarbershop?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="social-btn ig" target="_blank">
+                <i class="fab fa-instagram"></i> Instagram
+            </a>
+            <a href="https://maps.app.goo.gl/cwKNXdmDxyg81ikn6" class="social-btn maps" target="_blank">
+                <i class="fas fa-map-marker-alt"></i> Lokasi
+            </a>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="footer-info">
+            <p><i class="fas fa-phone"></i> 085279812771</p>
+            <p><i class="fas fa-home"></i> Villa kenali permai, Jl. Pendidikan No.45 blok D, RT.23</p>
+            <p>Kenali Asam Bawah, Kec. Kota Baru, Kota Jambi</p>
+            <p>Jambi 36129</p>
+        </div>
+        
 
     <script src="script.js"></script>
 </body>
